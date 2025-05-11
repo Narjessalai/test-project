@@ -1,0 +1,21 @@
+.showcase-wrapper{
+    background-color: #edf7f9;
+}
+.brand-wrapper {
+    box-shadow: 1px 6px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:
+  25px 0px;
+    border-radius:
+  9px;
+  transition: all .2s linear;
+  }
+  .brand-wrapper:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 6px 20px rgba(0,0,0,0.3);
+  }
+  .brand-wrapper img {
+    width: 65%;
+  }

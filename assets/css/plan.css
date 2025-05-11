@@ -1,0 +1,86 @@
+.card-wrapper{
+    box-shadow: 0 1px 20px rgba(0,0,0,.2);
+    transition: all .2s ease-in-out;
+}
+.card-wrapper:hover{
+    transform: scale(1.03);
+}
+.card-wrapper img{
+    width: 145px;
+}
+.card-wrapper h2{
+    font-size: 23px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 800;
+
+}
+.inner-card{
+    padding: 17px 0;
+}
+.inner-card .duration{
+    font-size: 14px;
+  font-weight: 600;
+  color: #464545;
+}
+.inner-card .benefits p{
+    font-size: 13px;
+  color: #777575;
+  padding-bottom: 0px;
+  margin:5px;
+
+}
+.btn-free{
+    background-color: #12c4a0;
+    box-shadow: -1px 7px 7px -5px rgba(0,0,0,.3);
+    color: #fff;
+    
+}
+.btn-free:hover{
+    background-color: transparent !important;
+    border:1px solid #12c4a0 !important;
+    color: #12c4a0;
+}
+.ribbon{
+    width: 100%;
+    height: 214px;
+    color: #fff;
+    overflow:hidden;
+    position:absolute;
+}
+.ribbon span{
+    width: 200px;
+    display: block;
+    background-color: #080d3d;
+    color: #fff;
+    top: 34px;
+  transform: rotate(-44deg);
+  padding:
+4px 8px;
+  left: -61px;
+  text-align: center;
+}
+.card-second{
+    border: 2px solid #080d3d;
+   
+}
+.card-first{
+    padding-bottom: 13px;
+}
+.free-trial{
+    background-color: #edf7f9;
+  
+}
+.free-trial-wrapper{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+  font-weight: 700;
+}
+.button-field{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-wrapper i{
+    color: #ffc100 ;
+}

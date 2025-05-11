@@ -1,0 +1,39 @@
+.banner-wrapper{
+    background-image: url('../img/images/bg.png');
+    padding: 100px 0 125px;
+    background-size: cover;
+    justify-content: center;
+
+}
+h1.text-title{
+    font-size: 2.7rem !important;
+
+}
+.title1{
+    color: #12c4a0;
+}
+.desc{
+  color:#455a64;
+  font-size: 14px;
+  line-height: 24px;
+}
+.btn-hero{
+    background-color: #080d3d !important;
+    color: #fff;
+    box-shadow: -1px 7px 7px -5px rgba(0,0,0,.3)
+  
+}
+.btn-hero:hover{
+    background-color: transparent !important;
+    border: 1px solid #080d3d;
+    
+}
+.client-section-wrapper{
+    background-color: #ebebeb;
+}
+.client-title{
+    color: #455a64;
+}
+.brands .item img{
+    width: 55%;
+}

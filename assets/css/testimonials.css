@@ -1,0 +1,19 @@
+.card-custom{
+    border:none;
+      box-shadow: 3px 3px 31px 8px rgba(0,0,0,.1);
+    }
+    .card-body p{
+        color: #777575;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+.card-body .subtitle{
+   color: #11c39f;
+   font-size: 13px;
+   font-weight: 600;
+   margin-bottom: 11px;
+}
+.card-title{
+    margin-bottom: 3px;
+    padding-left: 10px;
+}

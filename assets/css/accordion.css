@@ -1,0 +1,28 @@
+.accordion-item{
+ border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:1px solid #6c6c6c;
+  border-radius:0;
+}
+.accordion{
+    border-radius: 0 !important;
+}
+.accordion-item:last-of-type{
+    border-bottom: 1px solid #6c6c6c;
+    border-radius: 0;
+}
+.accordion-item:first-of-type > .accordion-header .accordion-button{
+    border-radius: 0;
+}
+.accordion-button::after{
+    content: '+';
+    background-image: none;
+    transform: none;
+}
+
+.accordion-button:not(.collapsed)::after{
+    transform: rotate(-45deg);
+    background-image: none;
+    transform-origin: center;
+}
